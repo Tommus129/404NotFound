@@ -1,20 +1,13 @@
 @echo off
-cd /d "%~dp0"
-set "JAVA_BIN=custom-jre-win\bin\java.exe"
-set "JAR_FILE=play.jar"
-
-if not exist "%JAVA_BIN%" (
-    echo ERRORE: file java.exe non trovato in %JAVA_BIN%
-    pause
-    exit /b
-)
-
-if not exist "%JAR_FILE%" (
-    echo ERRORE: file %JAR_FILE% non trovato
-    pause
-    exit /b
-)
-
 echo Avvio dell'applicazione JavaFX...
-"%JAVA_BIN%" -jar "%JAR_FILE%"
+
+set JAVA_PATH=custom-jre-win\bin\java.exe
+
+if not exist "%JAVA_PATH%" (
+    echo ERRORE: file java.exe non trovato in %JAVA_PATH%
+    pause
+    exit /b 1
+)
+
+"%JAVA_PATH%" -jar play.jar
 pause
