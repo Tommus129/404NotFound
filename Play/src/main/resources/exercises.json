@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TROVA_001",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale riga è corretta?",
+    "options": ["int x = 5.0;", "String s = 'test';", "System.out.println(\"Ciao\");", "if x == 3"],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "OUTPUT_001",
+    "type": "output",
+    "level": "facile",
+    "question": "int a = 2 + 2 * 3; System.out.println(a);",
+    "options": ["12", "8", "10", "6"],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "COMP_001",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il ciclo: for (int i = 0; i < 5; ___)",
+    "options": ["i++", "++", "i+1", "i--"],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "CORR_001",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "int x = '5'; // Qual è la correzione?",
+    "options": ["int x = 5;", "int x = \"5\";", "String x = 5;", "x = int(5);"],
+    "correctOptionIndex": 0
+  }
+]

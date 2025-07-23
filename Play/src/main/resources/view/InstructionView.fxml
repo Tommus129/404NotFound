@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.play.controller.InstructionController"
+      alignment="CENTER"
+      spacing="40"
+      prefWidth="960" prefHeight="720"
+      stylesheets="@/styles/dashboard.css"
+      style="-fx-padding: 60; -fx-background-color: #e6f5e9;">
+
+    <!-- Titolo -->
+    <Label text="🧠 Istruzioni"
+           style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #2e7d32;" />
+
+    <!-- Contenitore Flessibile -->
+    <StackPane maxWidth="800" minHeight="150">
+        <Label fx:id="instructionLabel"
+               wrapText="true"
+               textAlignment="CENTER"
+               alignment="CENTER"
+               maxWidth="800"
+               style="-fx-font-size: 20px; -fx-text-fill: #333; -fx-font-weight: normal;" />
+    </StackPane>
+
+    <!-- Pulsante per iniziare -->
+    <Button text="🚀 OK, Inizia!" onAction="#onOkClick"
+            style="-fx-background-color: #4caf50; -fx-text-fill: white; -fx-font-size: 18px; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 12 36;" />
+
+</VBox>

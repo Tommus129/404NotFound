@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.play.controller.AuthController"
+      spacing="15"
+      alignment="CENTER"
+      prefWidth="600"
+      prefHeight="400"
+      style="-fx-background-color: #f5f5f5; -fx-padding: 40;">
+
+    <Label text="Login Utente"
+           style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="usernameField"
+               promptText="Username"
+               maxWidth="300"
+               style="-fx-font-size: 14px;"/>
+
+    <PasswordField fx:id="passwordField"
+                   promptText="Password"
+                   maxWidth="300"
+                   style="-fx-font-size: 14px;"/>
+
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Login"
+                onAction="#onLogin"
+                style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+        <Button text="Registrati"
+                onAction="#onRegister"
+                style="-fx-background-color: #2196F3; -fx-text-fill: white;"/>
+    </HBox>
+
+    <Label fx:id="loginMessageLabel"
+           textFill="red"
+           style="-fx-font-size: 13px;"/>
+
+</VBox>

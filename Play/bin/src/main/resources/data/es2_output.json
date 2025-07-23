@@ -1,0 +1,87 @@
+[
+  {
+    "id": "output_facile_1",
+    "type": "output",
+    "level": "facile",
+    "question": "Qual è l'output del seguente codice?",
+    "code": "System.out.println(\"Hello \" + \"World\");",
+    "options": ["HelloWorld", "Hello World", "Hello + World", "Errore di compilazione"],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "output_facile_2",
+    "type": "output",
+    "level": "facile",
+    "question": "Cosa stampa il seguente codice?",
+    "code": "int a = 2;\nint b = 3;\nSystem.out.println(a + b);",
+    "options": ["23", "6", "5", "Errore"],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "output_facile_3",
+    "type": "output",
+    "level": "facile",
+    "question": "Risultato della stampa?",
+    "code": "boolean isJavaFun = true;\nSystem.out.println(isJavaFun);",
+    "options": ["true", "false", "1", "Errore a runtime"],
+    "correctOptionIndex": 0
+  },
+
+
+  {
+    "id": "output_medio_1",
+    "type": "output",
+    "level": "medio",
+    "question": "Cosa viene stampato?",
+    "code": "int a = 4;\na *= 2;\nSystem.out.println(a);",
+    "options": ["4", "8", "2", "Errore"],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "output_medio_2",
+    "type": "output",
+    "level": "medio",
+    "question": "Risultato dell'esecuzione?",
+    "code": "String s = \"hello\";\nSystem.out.println(s.toUpperCase());",
+    "options": ["HELLO", "hello", "Hello", "Errore a runtime"],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "output_medio_3",
+    "type": "output",
+    "level": "medio",
+    "question": "Output previsto?",
+    "code": "int x = 7;\nint y = x % 2;\nSystem.out.println(y);",
+    "options": ["1", "2", "0", "7"],
+    "correctOptionIndex": 0
+  },
+
+
+  {
+    "id": "output_difficile_1",
+    "type": "output",
+    "level": "difficile",
+    "question": "Qual è l'output?",
+    "code": "int[] a = {1, 2, 3};\nSystem.out.println(a.length);",
+    "options": ["2", "3", "Errore di compilazione", "undefined"],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "output_difficile_2",
+    "type": "output",
+    "level": "difficile",
+    "question": "Cosa stampa il seguente codice?",
+    "code": "String str = \"abc\";\nSystem.out.println(str.charAt(1));",
+    "options": ["a", "b", "c", "1"],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "output_difficile_3",
+    "type": "output",
+    "level": "difficile",
+    "question": "Cosa verrà stampato?",
+    "code": "int x = 5;\nint y = 10;\nSystem.out.println((x > y) ? x : y);",
+    "options": ["5", "10", "true", "Errore di compilazione"],
+    "correctOptionIndex": 1
+  }
+]

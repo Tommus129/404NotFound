@@ -1,0 +1,128 @@
+[
+  {
+    "id": "corr_facile_1",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica corregge l'errore nel metodo main?",
+    "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Ciao);\n    }\n}",
+    "options": [
+      "Sostituire println con print",
+      "Aggiungere un punto e virgola dopo la parentesi",
+      "Chiudere la stringa con una doppia virgoletta: \"Ciao\"",
+      "Rimuovere static da main"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "corr_facile_2",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica corregge l'assegnazione del valore a una variabile intera?",
+    "code": "int numero = \"10\";",
+    "options": [
+      "Cambiare int in String",
+      "Convertire la stringa in intero con Integer.parseInt(\"10\")",
+      "Rimuovere le virgolette da \"10\"",
+      "Usare double al posto di int"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "corr_facile_3",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica permette di creare correttamente una lista?",
+    "code": "List<String> nomi = new List<>();",
+    "options": [
+      "Sostituire 'new List<>()' con 'new ArrayList<>()'",
+      "Aggiungere 'import java.util.*;'",
+      "Rendere nomi static",
+      "Usare un array invece di una lista"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "corr_medio_1",
+    "type": "correggiErrore",
+    "level": "medio",
+    "question": "Quale modifica migliora la leggibilità e la correttezza del metodo max?",
+    "code": "public int max(int a, int b) {\n    if (a > b)\n        return a;\n    else\n        return b;\n}",
+    "options": [
+      "Aggiungere le parentesi graffe intorno a if/else",
+      "Cambiare 'if (a > b)' in 'if (a >= b)'",
+      "Rimuovere l'else",
+      "Rendere il metodo statico"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "corr_medio_2",
+    "type": "correggiErrore",
+    "level": "medio",
+    "question": "Come correggere il ciclo che itera su un array?",
+    "code": "String[] parole = {\"ciao\", \"mondo\"};\nfor (int i = 0; i <= parole.length; i++) {\n    System.out.println(parole[i]);\n}",
+    "options": [
+      "Spostare il println fuori dal ciclo",
+      "Aggiungere un controllo null",
+      "Usare foreach",
+      "Cambiare '<=' in '<'"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "id": "corr_medio_3",
+    "type": "correggiErrore",
+    "level": "medio",
+    "question": "Correggi il controllo su una stringa null.",
+    "code": "public void stampa(String s) {\n    if (s.equals(null)) {\n        System.out.println(s);\n    }\n}",
+    "options": [
+      "Usare 's != \"\"'",
+      "Controllare se 's.length() > 0'",
+      "Cambiare 's.equals(null)' in 's != null'",
+      "Stampare solo s"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "corr_difficile_1",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Individua l'errore nella dichiarazione di campo della classe `Studente`.",
+    "code": "public class Studente {\n    private nome;\n}",
+    "options": [
+      "Aggiungere il tipo: 'private String nome;'",
+      "Usare public al posto di private",
+      "Inizializzare nome direttamente",
+      "Rimuovere il punto e virgola"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "corr_difficile_2",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Come correggere il metodo che tenta di restituire una stringa da un void?",
+    "code": "public void saluta() {\n    return \"Ciao\";\n}",
+    "options": [
+      "Cambiare il tipo di ritorno in String",
+      "Rimuovere il return",
+      "Aggiungere un parametro",
+      "Rinominare il metodo"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "corr_difficile_3",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Come correggere correttamente entrambi gli errori nel seguente frammento?",
+    "code": "int[] numeri = {1, 2, 3}\nSystem.out.println(numeri[3]);",
+    "options": [
+      "Aggiungere punto e virgola dopo l'array",
+      "Limitare l'accesso a un indice valido (0-2)",
+      "Cambiare numeri[3] in numeri[2]",
+      "Tutte le precedenti"
+    ],
+    "correctOptionIndex": 3
+  }
+]

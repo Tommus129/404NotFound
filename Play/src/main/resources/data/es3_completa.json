@@ -1,0 +1,128 @@
+[
+  {
+    "id": "com_facile_1",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il costruttore della classe `Persona` per inizializzare il campo `nome`.",
+    "code": "public class Persona {\n    private String nome;\n\n    public Persona(String nome) {\n        /* ??? */\n    }\n}",
+    "options": [
+      "nome = this.nome;",
+      "this.nome == nome;",
+      "this.nome = nome;",
+      "String nome = this.nome;"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "com_facile_2",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il ciclo for per stampare i numeri da 0 a 9.",
+    "code": "for (int i = 0; i < 10; /* ??? */) {\n    System.out.println(i);\n}",
+    "options": [
+      "i = 10;",
+      "i++;",
+      "i = i - 1;",
+      "System.out.println(i);"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "com_facile_3",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il metodo per verificare se un numero è pari.",
+    "code": "public boolean isPari(int numero) {\n    /* ??? */\n}",
+    "options": [
+      "if (numero % 2 == 0) return true; else return false;",
+      "System.out.println(numero);",
+      "return true;",
+      "return numero % 2 == 0;"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "id": "com_medio_1",
+    "type": "completa",
+    "level": "medio",
+    "question": "Completa il metodo `quadrato` per restituire il quadrato di un numero intero.",
+    "code": "public int quadrato(int numero) {\n    /* ??? */\n}",
+    "options": [
+      "return Math.pow(numero, 2);",
+      "System.out.println(numero);",
+      "return numero + numero;",
+      "return numero * numero;"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "id": "com_medio_2",
+    "type": "completa",
+    "level": "medio",
+    "question": "Completa il metodo che verifica se una stringa è vuota.",
+    "code": "public boolean isVuota(String str) {\n    /* ??? */\n}",
+    "options": [
+      "if (str.length() == 0) return false;",
+      "return str == \"\";",
+      "str.equals(null);",
+      "return str.isEmpty();"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "id": "com_medio_3",
+    "type": "completa",
+    "level": "medio",
+    "question": "Completa il metodo per restituire il massimo tra due numeri interi.",
+    "code": "public int max(int a, int b) {\n    /* ??? */\n}",
+    "options": [
+      "return a + b;",
+      "return a > b ? a : b;",
+      "if (a > b) return a;",
+      "return b > a;"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "com_difficile_1",
+    "type": "completa",
+    "level": "difficile",
+    "question": "Completa il metodo per leggere un file e stampare le righe.",
+    "code": "public void leggiFile(String nomeFile) {\n    try {\n        List<String> righe = Files.readAllLines(Paths.get(nomeFile));\n        for (String riga : righe) {\n            /* ??? */\n        }\n    } catch (IOException e) {\n        e.printStackTrace();\n    }\n}",
+    "options": [
+      "System.out.println(riga);",
+      "System.print(riga);",
+      "Console.println(riga);",
+      "print(riga);"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "id": "com_difficile_2",
+    "type": "completa",
+    "level": "difficile",
+    "question": "Completa l'espressione lambda per filtrare numeri pari da una lista.",
+    "code": "List<Integer> pari = numeri.stream()\n    .filter(/* ??? */)\n    .collect(Collectors.toList());",
+    "options": [
+      "if(n % 2 == 0) return true;",
+      "return n % 2 == 0;",
+      "System.out.println(n);",
+      "n -> n % 2 == 0"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "id": "com_difficile_3",
+    "type": "completa",
+    "level": "difficile",
+    "question": "Completa il blocco try-catch per gestire un errore di I/O.",
+    "code": "try {\n    Files.readAllBytes(Paths.get(\"file.txt\"));\n} catch (/* ??? */ e) {\n    e.printStackTrace();\n}",
+    "options": [
+      "Exception",
+      "IOException",
+      "Throwable",
+      "Error"
+    ],
+    "correctOptionIndex": 1
+  }
+]

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:controller="com.play.controller.ExerciseSelectionController"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@/styles/dashboard.css"
+            prefWidth="960" prefHeight="720"
+            style="-fx-background-color: linear-gradient(to bottom, #f1f8e9, #ffffff);">
+
+    <!-- Centro contenuto -->
+    <center>
+        <VBox alignment="CENTER" spacing="35" style="-fx-padding: 60;">
+
+            <!-- Titolo -->
+            <Label text="🎯 Seleziona il tipo di esercizio"
+                   style="-fx-font-size: 30px; -fx-font-weight: bold;
+                          -fx-text-fill: #2e7d32;
+                          -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 1.5, 0.2, 0, 1);" />
+
+            <!-- Sezione bottoni esercizi -->
+            <HBox fx:id="exerciseButtonsBox" spacing="25" alignment="CENTER">
+                <ToggleButton fx:id="btnOutput" text="📘 Output"
+                              toggleGroup="$exerciseToggleGroup"
+                              style="-fx-background-color: #ec6464; -fx-text-fill: white;
+                                     -fx-font-size: 15px; -fx-font-weight: bold;
+                                     -fx-padding: 12 24; -fx-background-radius: 12;" />
+                <ToggleButton fx:id="btnCorreggi" text="🐞 Correggi"
+                              toggleGroup="$exerciseToggleGroup"
+                              style="-fx-background-color: #f9a825; -fx-text-fill: white;
+                                     -fx-font-size: 15px; -fx-font-weight: bold;
+                                     -fx-padding: 12 24; -fx-background-radius: 12;" />
+                <ToggleButton fx:id="btnCompleta" text="🧩 Completa"
+                              toggleGroup="$exerciseToggleGroup"
+                              style="-fx-background-color: #ef6c00; -fx-text-fill: white;
+                                     -fx-font-size: 15px; -fx-font-weight: bold;
+                                     -fx-padding: 12 24; -fx-background-radius: 12;" />
+                <ToggleButton fx:id="btnQuiz" text="❓ Trova"
+                              toggleGroup="$exerciseToggleGroup"
+                              style="-fx-background-color: #5c6bc0; -fx-text-fill: white;
+                                     -fx-font-size: 15px; -fx-font-weight: bold;
+                                     -fx-padding: 12 24; -fx-background-radius: 12;" />
+            </HBox>
+
+            <!-- Difficoltà -->
+            <ComboBox fx:id="levelComboBox" promptText="📊 Seleziona Difficoltà"
+                      style="-fx-pref-width: 240; -fx-font-size: 14px; -fx-background-radius: 6;" />
+
+            <!-- Barra di avanzamento -->
+            <VBox spacing="8" alignment="CENTER">
+                <ProgressBar fx:id="progressBar" prefWidth="320"
+                             style="-fx-accent: #43a047; -fx-background-radius: 6;" />
+                <Label fx:id="progressLabel" text="Completamento: 0%"
+                       style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #444;" />
+            </VBox>
+
+            <!-- Bottoni navigazione -->
+            <HBox spacing="30" alignment="CENTER">
+                <Button text="🔙 Indietro" onAction="#onBack"
+                        style="-fx-background-color: #ef5350; -fx-text-fill: white;
+                               -fx-font-size: 15px; -fx-font-weight: bold;
+                               -fx-padding: 10 26; -fx-background-radius: 10;" />
+                <Button text="🏆 Classifica" onAction="#onLeaderboard"
+                        style="-fx-background-color: #1976d2; -fx-text-fill: white;
+                               -fx-font-size: 15px; -fx-font-weight: bold;
+                               -fx-padding: 10 26; -fx-background-radius: 10;" />
+                <Button text="🚀 Inizia" onAction="#onStart"
+                        style="-fx-background-color: #4caf50; -fx-text-fill: white;
+                               -fx-font-size: 15px; -fx-font-weight: bold;
+                               -fx-padding: 10 26; -fx-background-radius: 10;" />
+            </HBox>
+        </VBox>
+    </center>
+
+</BorderPane>

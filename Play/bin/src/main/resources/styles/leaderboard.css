@@ -1,0 +1,12 @@
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b2dfdb;
+    -fx-border-radius: 8;
+    -fx-table-cell-border-color: #eeeeee;
+}
+
+.table-column-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e7d32;
+}

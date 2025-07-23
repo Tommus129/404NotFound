@@ -1,0 +1,21 @@
+.keyword {
+    -fx-fill: #0077cc;
+    -fx-font-weight: bold;
+}
+
+.comment {
+    -fx-fill: #7a7a7a;
+    -fx-font-style: italic;
+}
+
+.string {
+    -fx-fill: #008000;
+}
+
+.paren, .brace, .bracket, .semicolon {
+    -fx-fill: #ec71a1;
+}
+.label {
+    -fx-text-background-color: transparent;
+    -fx-text-fill: black; /* oppure un altro colore */
+}

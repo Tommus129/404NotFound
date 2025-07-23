@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import org.fxmisc.richtext.CodeArea?>
+
+<VBox xmlns="http://javafx.com/javafx/21.0.8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.play.controller.ExerciseController"
+      spacing="24"
+      fx:id="root"
+      alignment="TOP_CENTER"
+      prefWidth="1000" prefHeight="700"
+      style="-fx-padding: 40; -fx-background-color: linear-gradient(to bottom, #fdfbfb, #ebedee); -fx-font-size: 17px; -fx-font-family: 'Segoe UI';">
+
+    <!-- Titolo domanda -->
+    <Label fx:id="questionLabel"
+           wrapText="true"
+           maxWidth="920"
+           textAlignment="CENTER"
+           style="-fx-font-weight: bold; -fx-font-size: 24px; -fx-text-fill: #37474F;" />
+
+    <!-- Contenitore del codice -->
+    <VBox fx:id="codeContainer"
+          spacing="8"
+          maxWidth="920"
+          style="-fx-background-color: #f5f5f5; -fx-padding: 15; -fx-border-color: #ccc; -fx-border-radius: 6; -fx-background-radius: 6;">
+        <CodeArea fx:id="codeArea"
+                  editable="false"
+                  visible="false"
+                  maxWidth="900"
+                  maxHeight="280"
+                  style="-fx-font-family: 'JetBrains Mono', 'monospaced'; -fx-font-size: 15px; -fx-background-color: #f4f4f4; -fx-border-color: #ddd; -fx-border-width: 1; -fx-border-radius: 6;" />
+    </VBox>
+
+    <!-- Box opzioni -->
+    <VBox fx:id="optionsBox"
+          spacing="14"
+          maxWidth="920"
+          style="-fx-padding: 10 0 10 0;" />
+
+    <!-- Timer -->
+    <Label fx:id="timerLabel"
+           text="⏱ 0s"
+           style="-fx-font-size: 16px; -fx-text-fill: #777; -fx-padding: 10;" />
+
+    <!-- Pulsante Esci -->
+    <Button fx:id="exitButton"
+            text="⏪ Torna alla Dashboard"
+            onAction="#onExit"
+            style="-fx-background-color: #ef5350; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-background-radius: 8;"
+            maxWidth="220" />
+
+</VBox>

@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36173454-4b1d-4d50-ac57-32c06430029f" name="Changes" comment="" />
+    <list default="true" id="36173454-4b1d-4d50-ac57-32c06430029f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/play_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/ExerciseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/ExerciseSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/InstructionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/LeaderboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/controller/SummaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/model/Attempt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/model/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/service/ExerciseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/utils/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/utils/LocalDateTimeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/play/utils/SyntaxHighlighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/attempt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/es1_trovaCorretto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/es2_output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/es3_completa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/es4_correggiErrore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/exercises.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/leaderboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/syntax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ExerciseSelectionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ExerciseView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/InstructionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/LeaderboardView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/LoginView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/RegisterView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/SummaryView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +219,7 @@
       <workItem from="1753259721095" duration="353000" />
       <workItem from="1753261007491" duration="4562000" />
       <workItem from="1753280115010" duration="899000" />
-      <workItem from="1753282081690" duration="3408000" />
+      <workItem from="1753282081690" duration="2669000" />
     </task>
     <servers />
   </component>

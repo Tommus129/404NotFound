@@ -1,0 +1,121 @@
+[
+  {
+    "id": "trovaErrore_facile_1",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale dichiarazione è corretta per stampare una stringa?",
+    "options": [
+      "System.out.print(\"Ciao!)",
+      "print(\"Ciao\");",
+      "System.out.println(\"Ciao\");",
+      "echo(\"Ciao\");"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "trovaErrore_facile_2",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale riga è correttamente terminata in Java?",
+    "options": [
+      "int numero = 10",
+      "String nome = \"Mario\";",
+      "boolean attivo = true",
+      "System.out.println(\"Test\")"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "trovaErrore_facile_3",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Scegli l'opzione che rappresenta una corretta dichiarazione `if`.",
+    "options": [
+      "if x > 5 { System.out.println(x); }",
+      "if (x > 5) System.out.println(x);",
+      "if x > 5 then System.out.println(x);",
+      "if (x > 5) then System.out.println(x);"
+    ],
+    "correctOptionIndex": 1
+  },
+
+  {
+    "id": "trovaErrore_medio_1",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale costrutto `while` è sintatticamente corretto?",
+    "options": [
+      "while x < 10) { System.out.println(x); x++; }",
+      "while (x < 10 { System.out.println(x); x++; }",
+      "while (x < 10) { System.out.println(x); x++; }",
+      "do (x < 10) { System.out.println(x); x++; }"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "trovaErrore_medio_2",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale frammento rappresenta una corretta dichiarazione di array?",
+    "options": [
+      "int[] numeri = new int[];",
+      "int[] numeri = new int[5];",
+      "int numeri = int[5];",
+      "int numeri[] = 5;"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "id": "trovaErrore_medio_3",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale dei seguenti metodi è scritto correttamente?",
+    "options": [
+      "public static void stampa(String msg) { System.out.println(msg); }",
+      "public static stampa(String msg) { System.out.println(msg); }",
+      "static void stampa(String msg) System.out.println(msg);",
+      "void stampa(String msg) = { System.out.println(msg); }"
+    ],
+    "correctOptionIndex": 0
+  },
+
+  {
+    "id": "trovaErrore_difficile_1",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Quale frammento utilizza correttamente un `HashMap`?",
+    "options": [
+      "HashMap map = new HashMap(); map.put(\"chiave\", 10);",
+      "Map<String, Integer> map = new HashMap<>(); map.add(\"chiave\", 10);",
+      "HashMap<String, Integer> map = new HashMap(); map.put(\"chiave\", 10);",
+      "HashMap<String> map = new HashMap<>(); map.put(\"chiave\", 10);"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "trovaErrore_difficile_2",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Scegli il blocco `try-catch` sintatticamente corretto.",
+    "options": [
+      "try { int x = 1 / 0 } catch (ArithmeticException e) { System.out.println(e); }",
+      "try int x = 1 / 0; catch (Exception e) { System.out.println(e); }",
+      "try { int x = 1 / 0; } catch (Exception e) { System.out.println(e); }",
+      "catch (Exception e) { System.out.println(e); } try { int x = 1 / 0; }"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "id": "trovaErrore_difficile_3",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Quale frammento rappresenta correttamente un override del metodo `toString()`?",
+    "options": [
+      "public String toString() { return nome; }",
+      "public void toString() { return nome; }",
+      "String toString() { return nome; }",
+      "public static String toString() { return nome; }"
+    ],
+    "correctOptionIndex": 0
+  }
+]

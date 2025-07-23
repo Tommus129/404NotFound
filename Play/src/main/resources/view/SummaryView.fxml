@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.play.controller.SummaryController"
+      alignment="CENTER" spacing="15" style="-fx-padding: 30;">
+
+    <Label fx:id="resultLabel" style="-fx-font-size: 18;" />
+    <Label fx:id="timeLabel" />
+    <Button text="Torna alla selezione" onAction="#onBack"/>
+</VBox>

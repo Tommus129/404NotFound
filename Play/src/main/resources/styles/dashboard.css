@@ -1,0 +1,82 @@
+/* === GLOBAL STYLE === */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+/* === LABEL BENEVENUTO === */
+#welcomeLabel {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7e57c2;
+}
+
+/* === GENERIC VBOX CARD STYLING === */
+VBox {
+    -fx-padding: 20;
+    -fx-background-radius: 12;
+    -fx-spacing: 18;
+}
+
+/* === BUTTONS === */
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #7e57c2;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0.1, 0, 2);
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #9575cd;
+}
+
+/* === PROGRESS BARS === */
+.progress-bar {
+    -fx-accent: #4caf50;
+    -fx-control-inner-background: #f5f5f5;
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+    -fx-padding: 4;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}
+
+/* === SPECIFIC PROGRESS COLORS === */
+#readCodeBar {
+    -fx-accent: #66bb6a;
+}
+#orderStepsBar {
+    -fx-accent: #ffa726;
+}
+#debugBar {
+    -fx-accent: #42a5f5;
+}
+#quizBar {
+    -fx-accent: #ab47bc;
+}
+
+/* === STACKPANE LABELS (sopra progressbar) === */
+.stack-pane > .label {
+    -fx-text-fill: #212121;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, white, 2, 0.4, 0, 0);
+}
+
+/* === SELECTED TOGGLE === */
+.toggle-button:selected {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+}
+
+/* === FOOTER BUTTONS === */
+.button:focused {
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, #aaa, 4, 0.1, 0, 2);
+}

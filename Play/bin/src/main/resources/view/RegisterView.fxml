@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21.0.8"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.play.controller.RegisterController"
+      spacing="15" alignment="CENTER"
+      style="-fx-padding: 30; -fx-background-color: #ffffff;"
+      prefWidth="400" prefHeight="400">
+
+    <Label text="📝 Registrazione Utente" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+    <TextField fx:id="usernameField" promptText="Username" />
+    <PasswordField fx:id="passwordField" promptText="Password" />
+    <TextField fx:id="nameField" promptText="Nome" />
+    <TextField fx:id="surnameField" promptText="Cognome" />
+
+    <Label fx:id="messageLabel" style="-fx-text-fill: red;" />
+
+    <HBox spacing="10">
+        <Button text="Registrati" onAction="#onRegister"/>
+        <Button text="Indietro" onAction="#onBack"/>
+    </HBox>
+</VBox>

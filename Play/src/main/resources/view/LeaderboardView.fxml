@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.play.controller.LeaderboardController"
+      spacing="30" alignment="CENTER"
+      style="-fx-background-color: linear-gradient(to bottom, #e8f5e9, #ffffff);
+             -fx-padding: 50;">
+
+    <!-- Titolo -->
+    <Label text="🏆 Classifica Utenti"
+           style="-fx-font-size: 30px;
+                  -fx-font-weight: bold;
+                  -fx-text-fill: #1b5e20;
+                  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0.5, 0, 1);" />
+
+    <!-- Tabella -->
+    <TableView fx:id="leaderboardTable"
+               prefWidth="600" maxHeight="450"
+               style="-fx-background-color: #ffffff;
+                      -fx-background-radius: 10;
+                      -fx-border-radius: 10;
+                      -fx-border-color: #c8e6c9;
+                      -fx-border-width: 1;">
+
+        <columns>
+            <TableColumn fx:id="usernameCol" text="👤 Utente" prefWidth="240"/>
+            <TableColumn fx:id="scoreCol" text="💯 Punteggio" prefWidth="200"/>
+            <TableColumn fx:id="badgeCol" text="🎖 Badge" prefWidth="160"/>
+        </columns>
+    </TableView>
+
+    <!-- Bottone di ritorno -->
+    <Button text="⬅️ Torna agli Esercizi"
+            onAction="#onBack"
+            style="-fx-background-color: #43a047;
+                   -fx-text-fill: white;
+                   -fx-font-size: 16px;
+                   -fx-font-weight: bold;
+                   -fx-padding: 10 24;
+                   -fx-background-radius: 10;
+                   -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0.3, 0, 2);" />
+</VBox>

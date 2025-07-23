@@ -1,0 +1,371 @@
+[
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale dichiarazione è corretta per stampare una stringa?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_1",
+    "timestamp": "2025-07-21T15:39:06.100864"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale riga è correttamente terminata in Java?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_2",
+    "timestamp": "2025-07-21T15:39:09.666434"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Scegli l\u0027opzione che rappresenta una corretta dichiarazione `if`.",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_3",
+    "timestamp": "2025-07-21T15:39:13.391328"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale costrutto `while` è sintatticamente corretto?",
+    "correct": true,
+    "exerciseId": "trovaErrore_medio_1",
+    "timestamp": "2025-07-21T15:39:28.609634"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale frammento rappresenta una corretta dichiarazione di array?",
+    "correct": true,
+    "exerciseId": "trovaErrore_medio_2",
+    "timestamp": "2025-07-21T15:39:31.664484"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "medio",
+    "question": "Quale dei seguenti metodi è scritto correttamente?",
+    "correct": true,
+    "exerciseId": "trovaErrore_medio_3",
+    "timestamp": "2025-07-21T15:39:34.339531"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Quale frammento utilizza correttamente un `HashMap`?",
+    "correct": true,
+    "exerciseId": "trovaErrore_difficile_1",
+    "timestamp": "2025-07-21T15:39:50.688711"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Scegli il blocco `try-catch` sintatticamente corretto.",
+    "correct": true,
+    "exerciseId": "trovaErrore_difficile_2",
+    "timestamp": "2025-07-21T15:39:52.78575"
+  },
+  {
+    "username": "francesco",
+    "type": "trovaErrore",
+    "level": "difficile",
+    "question": "Quale frammento rappresenta correttamente un override del metodo `toString()`?",
+    "correct": true,
+    "exerciseId": "trovaErrore_difficile_3",
+    "timestamp": "2025-07-21T15:39:57.259822"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "facile",
+    "question": "Qual è l\u0027output del seguente codice?",
+    "correct": true,
+    "exerciseId": "output_facile_1",
+    "timestamp": "2025-07-21T15:44:46.076401"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "facile",
+    "question": "Cosa stampa il seguente codice?",
+    "correct": true,
+    "exerciseId": "output_facile_2",
+    "timestamp": "2025-07-21T15:44:50.645449"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "facile",
+    "question": "Risultato della stampa?",
+    "correct": true,
+    "exerciseId": "output_facile_3",
+    "timestamp": "2025-07-21T15:44:52.693838"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "medio",
+    "question": "Cosa viene stampato?",
+    "correct": true,
+    "exerciseId": "output_medio_1",
+    "timestamp": "2025-07-21T15:45:06.910158"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "medio",
+    "question": "Risultato dell\u0027esecuzione?",
+    "correct": true,
+    "exerciseId": "output_medio_2",
+    "timestamp": "2025-07-21T15:45:08.791185"
+  },
+  {
+    "username": "francesco",
+    "type": "output",
+    "level": "medio",
+    "question": "Output previsto?",
+    "correct": true,
+    "exerciseId": "output_medio_3",
+    "timestamp": "2025-07-21T15:45:10.724174"
+  },
+  {
+    "username": "francesco",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il costruttore della classe `Persona` per inizializzare il campo `nome`.",
+    "correct": false,
+    "exerciseId": "com_facile_1",
+    "timestamp": "2025-07-21T15:45:32.630892"
+  },
+  {
+    "username": "francesco",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il ciclo for per stampare i numeri da 0 a 9.",
+    "correct": false,
+    "exerciseId": "com_facile_2",
+    "timestamp": "2025-07-21T15:45:43.260163"
+  },
+  {
+    "username": "francesco",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il metodo per verificare se un numero è pari.",
+    "correct": true,
+    "exerciseId": "com_facile_3",
+    "timestamp": "2025-07-21T15:45:45.3326"
+  },
+  {
+    "username": "francesco",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il costruttore della classe `Persona` per inizializzare il campo `nome`.",
+    "correct": true,
+    "exerciseId": "com_facile_1",
+    "timestamp": "2025-07-21T15:46:20.80652"
+  },
+  {
+    "username": "francesco",
+    "type": "completa",
+    "level": "facile",
+    "question": "Completa il ciclo for per stampare i numeri da 0 a 9.",
+    "correct": true,
+    "exerciseId": "com_facile_2",
+    "timestamp": "2025-07-21T15:46:25.559864"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "facile",
+    "question": "Qual è l\u0027output del seguente codice?",
+    "correct": false,
+    "exerciseId": "output_facile_1",
+    "timestamp": "2025-07-21T15:47:00.268621"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "facile",
+    "question": "Cosa stampa il seguente codice?",
+    "correct": true,
+    "exerciseId": "output_facile_2",
+    "timestamp": "2025-07-21T15:47:16.933519"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "facile",
+    "question": "Risultato della stampa?",
+    "correct": true,
+    "exerciseId": "output_facile_3",
+    "timestamp": "2025-07-21T15:47:21.953128"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "medio",
+    "question": "Cosa viene stampato?",
+    "correct": true,
+    "exerciseId": "output_medio_1",
+    "timestamp": "2025-07-21T15:47:39.459743"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "medio",
+    "question": "Risultato dell\u0027esecuzione?",
+    "correct": true,
+    "exerciseId": "output_medio_2",
+    "timestamp": "2025-07-21T15:47:41.393689"
+  },
+  {
+    "username": "tommaso",
+    "type": "output",
+    "level": "medio",
+    "question": "Output previsto?",
+    "correct": true,
+    "exerciseId": "output_medio_3",
+    "timestamp": "2025-07-21T15:47:43.221843"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica corregge l\u0027errore nel metodo main?",
+    "correct": true,
+    "exerciseId": "corr_facile_1",
+    "timestamp": "2025-07-21T15:47:55.589259"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica corregge l\u0027assegnazione del valore a una variabile intera?",
+    "correct": true,
+    "exerciseId": "corr_facile_2",
+    "timestamp": "2025-07-21T15:47:59.452601"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "facile",
+    "question": "Quale modifica permette di creare correttamente una lista?",
+    "correct": true,
+    "exerciseId": "corr_facile_3",
+    "timestamp": "2025-07-21T15:48:01.469486"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Individua l\u0027errore nella dichiarazione di campo della classe `Studente`.",
+    "correct": true,
+    "exerciseId": "corr_difficile_1",
+    "timestamp": "2025-07-21T15:48:20.888946"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Come correggere il metodo che tenta di restituire una stringa da un void?",
+    "correct": true,
+    "exerciseId": "corr_difficile_2",
+    "timestamp": "2025-07-21T15:48:22.727433"
+  },
+  {
+    "username": "tommaso",
+    "type": "correggiErrore",
+    "level": "difficile",
+    "question": "Come correggere correttamente entrambi gli errori nel seguente frammento?",
+    "correct": true,
+    "exerciseId": "corr_difficile_3",
+    "timestamp": "2025-07-21T15:48:24.667534"
+  },
+  {
+    "username": "tommaso",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale dichiarazione è corretta per stampare una stringa?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_1",
+    "timestamp": "2025-07-21T15:48:43.222828"
+  },
+  {
+    "username": "tommaso",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale riga è correttamente terminata in Java?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_2",
+    "timestamp": "2025-07-21T15:48:44.860302"
+  },
+  {
+    "username": "tommaso",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Scegli l\u0027opzione che rappresenta una corretta dichiarazione `if`.",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_3",
+    "timestamp": "2025-07-21T15:48:46.610446"
+  },
+  {
+    "username": "greta",
+    "type": "output",
+    "level": "facile",
+    "question": "Qual è l\u0027output del seguente codice?",
+    "correct": true,
+    "exerciseId": "output_facile_1",
+    "timestamp": "2025-07-21T15:49:12.581189"
+  },
+  {
+    "username": "greta",
+    "type": "output",
+    "level": "facile",
+    "question": "Cosa stampa il seguente codice?",
+    "correct": true,
+    "exerciseId": "output_facile_2",
+    "timestamp": "2025-07-21T15:49:14.460603"
+  },
+  {
+    "username": "greta",
+    "type": "output",
+    "level": "facile",
+    "question": "Risultato della stampa?",
+    "correct": true,
+    "exerciseId": "output_facile_3",
+    "timestamp": "2025-07-21T15:49:16.160583"
+  },
+  {
+    "username": "greta",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale dichiarazione è corretta per stampare una stringa?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_1",
+    "timestamp": "2025-07-21T15:49:39.582296"
+  },
+  {
+    "username": "greta",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Quale riga è correttamente terminata in Java?",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_2",
+    "timestamp": "2025-07-21T15:49:43.605993"
+  },
+  {
+    "username": "greta",
+    "type": "trovaErrore",
+    "level": "facile",
+    "question": "Scegli l\u0027opzione che rappresenta una corretta dichiarazione `if`.",
+    "correct": true,
+    "exerciseId": "trovaErrore_facile_3",
+    "timestamp": "2025-07-21T15:49:48.068074"
+  }
+]

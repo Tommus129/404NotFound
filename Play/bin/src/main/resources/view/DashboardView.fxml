@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.play.controller.DashboardController"
+            prefWidth="1080" prefHeight="800"
+            stylesheets="@/styles/dashboard.css"
+            style="-fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff);">
+
+    <!-- Header -->
+    <top>
+        <VBox alignment="CENTER" spacing="15" style="-fx-padding: 25;">
+            <Label fx:id="welcomeLabel"
+                   text="Benvenuto!"
+                   wrapText="true" maxWidth="800" textAlignment="CENTER" alignment="CENTER"
+                   style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #7e57c2;" />
+
+            <VBox spacing="6" alignment="CENTER">
+                <Label text="📈 Progresso Totale"
+                       wrapText="true" maxWidth="600" textAlignment="CENTER"
+                       style="-fx-font-size: 16px; -fx-text-fill: #424242;" />
+                <ProgressBar fx:id="globalProgressBar" prefWidth="320" style="-fx-accent: #81c784;" />
+            </VBox>
+
+            <HBox alignment="CENTER" spacing="30" style="-fx-padding: 15;">
+                <VBox alignment="CENTER" spacing="8"
+                      style="-fx-background-color: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+                             -fx-background-radius: 12;
+                             -fx-padding: 15 25;
+                             -fx-border-radius: 12;
+                             -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.2, 0, 4);">
+                    <Label text="📥 Tentativi Totali"
+                           wrapText="true" maxWidth="240" textAlignment="CENTER"
+                           style="-fx-font-size: 18px; -fx-text-fill: #212121;" />
+                    <Label fx:id="attemptsCountLabel"
+                           wrapText="true" maxWidth="240" textAlignment="CENTER"
+                           style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </VBox>
+
+                <VBox alignment="CENTER" spacing="8"
+                      style="-fx-background-color: linear-gradient(to bottom, #a18cd1, #fbc2eb);
+                             -fx-background-radius: 12;
+                             -fx-padding: 15 25;
+                             -fx-border-radius: 12;
+                             -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.2, 0, 4);">
+                    <Label text="📊 Percentuale Successo"
+                           wrapText="true" maxWidth="240" textAlignment="CENTER"
+                           style="-fx-font-size: 18px; -fx-text-fill: #212121;" />
+                    <Label fx:id="successRateLabel"
+                           wrapText="true" maxWidth="240" textAlignment="CENTER"
+                           style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </VBox>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- Centro con esercizi -->
+    <center>
+        <GridPane hgap="40" vgap="40" alignment="CENTER" style="-fx-padding: 30;">
+            <!-- Output -->
+            <VBox fx:id="readBox" spacing="12" prefWidth="300" prefHeight="180"
+                  style="-fx-background-color: linear-gradient(to bottom, #ff6f61, #fbd786);
+                         -fx-padding: 20; -fx-background-radius: 10;
+                         -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.2, 0, 4);"
+                  GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER">
+                <Label text="Cosa Stamperà?"
+                       wrapText="true" maxWidth="280" textAlignment="CENTER"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                <Button text="Scegli l'output corretto" onAction="#onReadCode" maxWidth="220"
+                        style="-fx-background-color: #ff7043; -fx-text-fill: white;" />
+                <StackPane alignment="CENTER">
+                    <ProgressBar fx:id="readCodeBar" prefWidth="220" style="-fx-accent: #81c784;" />
+                    <Label fx:id="readCodeLabel"
+                           wrapText="true" prefWidth="200" maxWidth="200"
+                           textAlignment="CENTER"
+                           style="-fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </StackPane>
+            </VBox>
+
+            <!-- Completa -->
+            <VBox fx:id="orderBox" spacing="12" prefWidth="300" prefHeight="180"
+                  style="-fx-background-color: linear-gradient(to bottom, #ffb74d, #ffe082);
+                         -fx-padding: 20; -fx-background-radius: 10;
+                         -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.2, 0, 4);"
+                  GridPane.columnIndex="1" GridPane.rowIndex="0" alignment="CENTER">
+                <Label text="Leggi con Attenzione"
+                       wrapText="true" maxWidth="280" textAlignment="CENTER"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                <Button text="Completa Il Codice" onAction="#onOrderSteps" maxWidth="220"
+                        style="-fx-background-color: #ffa726; -fx-text-fill: white;" />
+                <StackPane alignment="CENTER">
+                    <ProgressBar fx:id="orderStepsBar" prefWidth="220" style="-fx-accent: #81c784;" />
+                    <Label fx:id="orderStepsLabel"
+                           wrapText="true" prefWidth="200" maxWidth="200"
+                           textAlignment="CENTER"
+                           style="-fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </StackPane>
+            </VBox>
+
+            <!-- Debugger -->
+            <VBox fx:id="debugBox" spacing="12" prefWidth="300" prefHeight="180"
+                  style="-fx-background-color: linear-gradient(to bottom, #fff176, #ffd54f);
+                         -fx-padding: 20; -fx-background-radius: 10;
+                         -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.2, 0, 4);"
+                  GridPane.columnIndex="0" GridPane.rowIndex="1" alignment="CENTER">
+                <Label text="Aguzza la vista"
+                       wrapText="true" maxWidth="280" textAlignment="CENTER"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                <Button text="Correggi l'errore" onAction="#onDebug" maxWidth="220"
+                        style="-fx-background-color: #fbc02d; -fx-text-fill: white;" />
+                <StackPane alignment="CENTER">
+                    <ProgressBar fx:id="debugBar" prefWidth="220" style="-fx-accent: #81c784;" />
+                    <Label fx:id="debugLabel"
+                           wrapText="true" prefWidth="200" maxWidth="200"
+                           textAlignment="CENTER"
+                           style="-fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </StackPane>
+            </VBox>
+
+            <!-- Trova errore -->
+            <VBox fx:id="quizBox" spacing="12" prefWidth="300" prefHeight="180"
+                  style="-fx-background-color: linear-gradient(to bottom, #64b5f6, #bbdefb);
+                         -fx-padding: 20; -fx-background-radius: 10;
+                         -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.2, 0, 4);"
+                  GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER">
+                <Label text="Trova l'Unico Giusto"
+                       wrapText="true" maxWidth="280" textAlignment="CENTER"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                <Button text="Seleziona Quello Corretto" onAction="#onQuiz" maxWidth="220"
+                        style="-fx-background-color: #42a5f5; -fx-text-fill: white;" />
+                <StackPane alignment="CENTER">
+                    <ProgressBar fx:id="quizBar" prefWidth="220" style="-fx-accent: #81c784;" />
+                    <Label fx:id="quizLabel"
+                           wrapText="true" prefWidth="200" maxWidth="200"
+                           textAlignment="CENTER"
+                           style="-fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: #212121;" />
+                </StackPane>
+            </VBox>
+        </GridPane>
+    </center>
+
+    <!-- Footer -->
+    <bottom>
+        <HBox alignment="CENTER" spacing="50" style="-fx-padding: 25;">
+            <Button text="🏆 Classifica Globale" onAction="#onLeaderboard"
+                    style="-fx-background-color: #1976d2; -fx-text-fill: white;
+                           -fx-font-size: 16px; -fx-font-weight: bold;
+                           -fx-padding: 10 20; -fx-background-radius: 8;" />
+            <Button text="🔙 Esci" onAction="#onLogout"
+                    style="-fx-background-color: #f44336; -fx-text-fill: white;
+                           -fx-font-size: 16px; -fx-font-weight: bold;
+                           -fx-padding: 10 20; -fx-background-radius: 8;" />
+        </HBox>
+    </bottom>
+</BorderPane>
