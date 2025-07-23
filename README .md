@@ -92,7 +92,7 @@ chmod +x start.sh
 ```bash
 ./start.sh
 ```
-##Per Windows
+## Per Windows
 
 ### Fare doppio clic sul file start.bat
 ----
