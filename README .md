@@ -75,7 +75,7 @@ L'app include diverse tipologie di esercizi, tracciamento dei progressi, classif
 
 ### 1.Clona la repository
 ```bash
-   git clone https://github.com/tuo-username/Codelympics.git
+   git clone https://github.com/Tommus129/404NotFoun
 ```
 ## Per MacOs/Linux
 
